@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0;
+    background-image: url('/assets/background_home.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+    max-width: 400px; 
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFD7C4; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+}
+
+.login-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #333;
+    text-align: left;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.remember-forgot {
+    margin-bottom: 10px;
+}
+
+.signin-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #640D5F; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background-color: #D91656; 
+}

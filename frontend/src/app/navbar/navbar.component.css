@@ -1,0 +1,41 @@
+.body {
+    margin: 0; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  background-color : #8C3061;
+}
+
+.navbar-brand .brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color:white;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  display: inline;
+}
+
+.navbar-menu a {
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px; 
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+}
+  

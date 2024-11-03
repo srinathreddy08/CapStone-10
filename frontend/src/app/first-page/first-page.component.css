@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Ensure the font is included */
+  background: linear-gradient(135deg, #8A2BE2, #FFFFFF); /* Violet to white gradient */
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; /* Align items to the left */
+  justify-content: flex-start; /* Align items to the top */
+  padding: 20px; /* Add padding for spacing */
+  width: 100%; 
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold; 
+  color: #4B0082; /* Dark violet color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px; 
+}
+
+.get-started-button {
+  background-color: #D91656; 
+  color: white; 
+  border: none; 
+  border-radius: 25px; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px; /* Space between title and button */
+}
+
+.get-started-button:hover {
+  background-color: #640D5F; 
+  transform: scale(1.05);
+}
+
+.popup {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9); /* White with some transparency */
+  border: 1px solid #640D5F; 
+  padding: 20px;
+  z-index: 1000; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 15px; 
+  height: auto; 
+  width: 250px;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.popup h2 {
+  margin: 0 0 15px;
+  color: #640D5F; 
+  font-size: 24px; 
+}
+
+.popup-button {
+  background-color: #640D5F; 
+  color: white; 
+  border: none; 
+  border-radius: 25px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  margin: 10px 0;
+}
+
+.popup-button:hover {
+  background-color: #D91656; 
+  transform: scale(1.05);
+}
+
+.close-button {
+  background-color: transparent;
+  color: #640D5F;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-button:hover {
+  text-decoration: underline;
+}
